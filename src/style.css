@@ -3,3 +3,8 @@ body {
   color: rgb(117, 131, 143);
   text-align: center;
 }
+main {
+  display: block;
+  margin: 0 auto;
+  max-width: 600px;
+}
