@@ -15,18 +15,22 @@
         <h1>Welcome to my AI generator</h1>
       </header>
       <main>
-        <form id="generator-form">
-          <input
-            type="text"
-            placeholder="Enter keywords"
-            autofocus
-            required
-            class="keywords"
-            id="user-instructions"
-          />
-          <input type="submit" class="submit-button" />
-        </form>
-        <div class="story" id="story">TEST</div>
+        <div class="form-container">
+          <form id="generator-form">
+            <input
+              type="text"
+              placeholder="Enter topic(s) for a scary story"
+              autofocus
+              required
+              autocomplete="off"
+              class="keywords"
+              id="user-instructions"
+            />
+            <input type="submit" class="submit-button" />
+          </form>
+          <div class="hint">i.e.: Moon, Cats, Shadow...</div>
+        </div>
+        <div class="story hidden" id="story">TEST</div>
       </main>
     </div>
     <footer>

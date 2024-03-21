@@ -14,12 +14,20 @@ h1 {
   color: rgb(168, 164, 172);
 }
 form {
+  display: flex;
+}
+.form-container {
   padding: 30px;
   margin-bottom: 20px;
-  background-color: rgb(168, 164, 172);
   border-radius: 10px;
-  display: flex;
+  background-color: rgb(168, 164, 172);
   box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
+}
+.hint {
+  line-height: 1.5;
+  font-size: 12px;
+  opacity: 0.8;
+  margin-top: 5px;
 }
 .keywords {
   padding: 20px;
@@ -45,6 +53,9 @@ form {
   border-left: 3px solid white;
   border-radius: 5px;
   color: rgb(21, 1, 44);
+}
+.hidden {
+  display: none;
 }
 footer {
   text-align: center;
