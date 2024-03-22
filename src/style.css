@@ -1,64 +1,68 @@
 body {
-  background-color: rgb(21, 1, 44);
+  background-image: url("../src/candles.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: black;
+  color: rgb(242 186 172);
+  font-family: "Lancelot", serif;
+  text-shadow: 1px 1px 2px rgba(25, 1, 27, 0.9);
 }
 .container {
-  margin: 120px auto;
+  margin: 80px auto;
   max-width: 600px;
-  font-family: Georgia, "Times New Roman", Times, serif;
 }
 h1 {
   text-align: center;
   font-weight: 800;
-  font-size: 40px;
+  font-size: 58px;
   line-height: 1.5;
-  color: rgb(168, 164, 172);
 }
 form {
   display: flex;
 }
 .form-container {
   padding: 30px;
-  margin-bottom: 20px;
   border-radius: 10px;
-  background-color: rgb(168, 164, 172);
-  box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
 }
 .hint {
   line-height: 1.5;
-  font-size: 12px;
-  opacity: 0.8;
+  font-size: 15px;
   margin-top: 5px;
 }
 .keywords {
   padding: 20px;
   border: 1px solid rgba(21, 1, 44, 0.11);
   width: 80%;
-  border-radius: 30px;
+  border-radius: 25px;
   line-height: 20px;
+  opacity: 0.9;
 }
 .submit-button {
   margin-left: 10px;
-  background-color: rgb(21, 1, 44);
-  color: white;
+  background-color: rgba(242, 186, 172, 0.9);
   border: none;
   width: 150px;
-  border-radius: 30px;
+  border-radius: 25px;
   line-height: 20px;
+  font-weight: 600;
 }
 .story {
-  font-size: 15px;
-  padding: 20px;
+  font-size: 19px;
+  padding: 10px;
   line-height: 24px;
-  background-color: rgb(168, 164, 172);
-  border-left: 3px solid white;
+  background-color: rgb(22 13 16 / 80%);
+  border-left: 7px solid rgb(169 144 140);
   border-radius: 5px;
-  color: rgb(21, 1, 44);
 }
 .hidden {
   display: none;
 }
 footer {
   text-align: center;
-  color: rgb(168, 164, 172);
-  font-size: 13px;
+  font-size: 16px;
+}
+a {
+  color: rgb(250 214 206);
+  text-decoration: none;
+  font-weight: 700;
 }
