@@ -16,13 +16,14 @@ h1 {
   font-weight: 800;
   font-size: 58px;
   line-height: 1.5;
+  margin-bottom: 7px;
 }
 form {
   display: flex;
 }
 .form-container {
-  padding: 30px;
-  border-radius: 10px;
+  padding: 20px;
+  border-radius: 5px;
 }
 .hint {
   line-height: 1.5;
@@ -30,7 +31,7 @@ form {
   margin-top: 5px;
 }
 .keywords {
-  padding: 20px;
+  padding: 15px;
   border: 1px solid rgba(21, 1, 44, 0.11);
   width: 80%;
   border-radius: 25px;
@@ -47,12 +48,13 @@ form {
   font-weight: 600;
 }
 .story {
-  font-size: 19px;
+  font-size: 21px;
   padding: 10px;
   line-height: 24px;
-  background-color: rgb(22 13 16 / 80%);
-  border-left: 7px solid rgb(169 144 140);
+  background-color: rgb(8 7 7 / 80%);
+  border-left: 7px solid rgb(250 214 206);
   border-radius: 5px;
+  color: rgb(250 214 206);
 }
 .hidden {
   display: none;
